@@ -1,3 +1,7 @@
+## [0.2.1](https://github.com/cheminfo/nmr-xy-testdata/compare/v0.2.0...v0.2.1) (2020-05-13)
+
+
+
 # 0.2.0 (2020-05-13)
 
 
