@@ -1,0 +1,14 @@
+{
+  "name": "nmr-xy-testdata",
+  "version": "0.1.0",
+  "description": "Data use to test NMR algorithms",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "data"
+  ],
+  "author": "Luc Patiny",
+  "license": "MIT"
+}
