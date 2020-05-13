@@ -1,0 +1,42 @@
+[
+  {
+    "category": "noisy",
+    "filename": "noisyBigPeakSmallPeak.json",
+    "url": "./data/noisy/noisyBigPeakSmallPeak.json"
+  },
+  {
+    "category": "pure",
+    "filename": "d1-1.2_j7.json",
+    "url": "./data/pure/d1-1.2_j7.json"
+  },
+  {
+    "category": "pure",
+    "filename": "d1-2-3-4-5-6-7-8.json",
+    "url": "./data/pure/d1-2-3-4-5-6-7-8.json"
+  },
+  {
+    "category": "pure",
+    "filename": "d1-2-3-4-5-6-7-8HR.json",
+    "url": "./data/pure/d1-2-3-4-5-6-7-8HR.json"
+  },
+  {
+    "category": "pure",
+    "filename": "d1-2-3-4-5-6-7-8_baseline.json",
+    "url": "./data/pure/d1-2-3-4-5-6-7-8_baseline.json"
+  },
+  {
+    "category": "pure",
+    "filename": "d1-2-3_j16-10-2.json",
+    "url": "./data/pure/d1-2-3_j16-10-2.json"
+  },
+  {
+    "category": "pure",
+    "filename": "d1-2_j7.json",
+    "url": "./data/pure/d1-2_j7.json"
+  },
+  {
+    "category": "pure",
+    "filename": "d1-7_j7.json",
+    "url": "./data/pure/d1-7_j7.json"
+  }
+]

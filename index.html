@@ -7,19 +7,22 @@
   </head>
 
   <body>
-    <div id="graph"></div>
+    <table>
+      <tbody id="tbodyID">
+        <tr>
+          <th>Category</th>
+          <th>Code</th>
+          <th>Spectrum</th>
+        </tr>
+      </tbody>
+    </table>
 
     <script>
-      let dataSource = './data/pure/d1-1.2_j7.json';
-
       createGraph();
 
       async function createGraph() {
-        let data = { x: [], y: [] };
-        if (dataSource) {
-          let response = await fetch(dataSource);
-          data = await response.json();
-        }
+        let response = await fetch('./toc.json');
+        let toc = await response.json();
 
         // options for zoom
         const options = {
@@ -51,20 +54,44 @@
           ],
         };
 
-        var graph = new Graph('graph', options);
-        graph.resize(600, 400); // Resizes the container
+        let target = document.getElementById('tbodyID');
+        for (let entry of toc) {
+          console.log(entry);
 
-        let waveForm = Graph.newWaveform();
-        let arrayX = data.x;
-        let arrayY = data.y;
-        waveForm.setData(arrayY, arrayX);
+          let response = await fetch(entry.url);
+          let data = await response.json();
+          let newRow = document.createElement('TR');
+          target.appendChild(newRow);
+          let newTD1 = document.createElement('TD');
+          newTD1.innerText = entry.category;
+          newRow.appendChild(newTD1);
+          let newTD2 = document.createElement('TD');
+          newTD2.innerText = entry.url;
+          newRow.appendChild(newTD2);
+          let newTD3 = document.createElement('TD');
+          newRow.appendChild(newTD3);
 
-        graph
-          .newSerie('line serie', {}, 'line') // Creates a new serie
-          .autoAxis() // Assigns axes
-          .setWaveform(waveForm);
+          let newDiv = document.createElement('DIV');
+          newTD3.appendChild(newDiv);
+          addGraph(data, newDiv);
+        }
 
-        graph.draw(); // Draw
+        function addGraph(data, div) {
+          const graph = new Graph(div, options);
+          graph.resize(600, 400); // Resizes the container
+
+          let waveForm = Graph.newWaveform();
+          let arrayX = data.x;
+          let arrayY = data.y;
+          waveForm.setData(arrayY, arrayX);
+
+          graph
+            .newSerie('line serie', {}, 'line') // Creates a new serie
+            .autoAxis() // Assigns axes
+            .setWaveform(waveForm);
+
+          graph.draw(); // Draw
+        }
       }
     </script>
   </body>
