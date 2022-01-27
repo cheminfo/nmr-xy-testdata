@@ -38,5 +38,15 @@
     "category": "pure",
     "filename": "d1-7_j7.json",
     "url": "./data/pure/d1-7_j7.json"
+  },
+  {
+    "category": "pure",
+    "filename": "tenPoints.json",
+    "url": "./data/pure/tenPoints.json"
+  },
+  {
+    "category": "pure",
+    "filename": "twoPoints.json",
+    "url": "./data/pure/twoPoints.json"
   }
 ]
