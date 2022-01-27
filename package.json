@@ -1,6 +1,6 @@
 {
   "name": "nmr-xy-testdata",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Data use to test NMR algorithms",
   "main": "src/index.js",
   "scripts": {
