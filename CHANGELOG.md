@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.4.1](https://www.github.com/cheminfo/nmr-xy-testdata/compare/v0.4.0...v0.4.1) (2022-01-27)
+
+
+### Bug Fixes
+
+* two and ten points example ([e54fc3d](https://www.github.com/cheminfo/nmr-xy-testdata/commit/e54fc3dc873b5a15d21bbbca39b56d9ec10f9407))
+
 ## [0.4.0](https://www.github.com/cheminfo/nmr-xy-testdata/compare/v0.3.0...v0.4.0) (2022-01-27)
 
 
