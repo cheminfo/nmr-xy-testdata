@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://www.github.com/cheminfo/nmr-xy-testdata/compare/v0.4.1...v0.5.0) (2022-02-03)
+
+
+### Features
+
+* add experimental 1D spectra ([516ce3a](https://www.github.com/cheminfo/nmr-xy-testdata/commit/516ce3a497f0ed1df50dadbf3183fd4021294871))
+
 ### [0.4.1](https://www.github.com/cheminfo/nmr-xy-testdata/compare/v0.4.0...v0.4.1) (2022-01-27)
 
 
