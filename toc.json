@@ -1,5 +1,20 @@
 [
   {
+    "category": "experimental",
+    "filename": "1d",
+    "url": "./data/experimental/1d/cytisine.json"
+  },
+  {
+    "category": "experimental",
+    "filename": "1d",
+    "url": "./data/experimental/1d/ethylbenzene.json"
+  },
+  {
+    "category": "experimental",
+    "filename": "1d",
+    "url": "./data/experimental/1d/ethylvinylether.json"
+  },
+  {
     "category": "noisy",
     "filename": "noisyBigPeakSmallPeak.json",
     "url": "./data/noisy/noisyBigPeakSmallPeak.json"
