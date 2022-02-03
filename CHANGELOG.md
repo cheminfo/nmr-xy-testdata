@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.5.1](https://www.github.com/cheminfo/nmr-xy-testdata/compare/v0.5.0...v0.5.1) (2022-02-03)
+
+
+### Bug Fixes
+
+* export correctly x and y in experimental data ([cc6b14b](https://www.github.com/cheminfo/nmr-xy-testdata/commit/cc6b14be19644f6d01cacb63af511cf1493289e4))
+
 ## [0.5.0](https://www.github.com/cheminfo/nmr-xy-testdata/compare/v0.4.1...v0.5.0) (2022-02-03)
 
 
